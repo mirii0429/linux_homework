@@ -1,0 +1,14 @@
+miriimuto@Miriis-MacBook-Air ~ % pwd
+/Users/miriimuto
+miriimuto@Miriis-MacBook-Air ~ % cd /Users/miriimuto/Downloads/fuga
+miriimuto@Miriis-MacBook-Air fuga % mkdir kadai_007
+miriimuto@Miriis-MacBook-Air fuga % touch kadai_007/kadai_007.txt
+miriimuto@Miriis-MacBook-Air fuga % chmod 444 kadai_007/kadai_007.txt
+miriimuto@Miriis-MacBook-Air fuga % ls -l kadai_007/kadai_007.txt
+-r--r--r--@ 1 miriimuto  staff  0  7 16 23:29 kadai_007/kadai_007.txt
+miriimuto@Miriis-MacBook-Air fuga % echo "fugafuga" > kadai_007/kadai_007.txt
+miriimuto@Miriis-MacBook-Air fuga % chmod 666 kadai_007/kadai_007.txt
+miriimuto@Miriis-MacBook-Air fuga % cat kadai_007/kadai_007.txt
+fugafuga
+miriimuto@Miriis-MacBook-Air fuga % ls -l kadai_007/kadai_007.txt
+-rw-rw-rw-@ 1 miriimuto  staff  9  7 16 23:33 kadai_007/kadai_007.txt
